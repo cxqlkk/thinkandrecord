@@ -3,7 +3,7 @@
   * [Introduction](README.md)
   * [基础篇](ch0/preface.md)   
       * [java字符字节编码](java/我的编码.md)
-      * [基础任务](ch0/RepTaskBasic.md)_
+      * [golang--string遍历](go/go_base/string遍历.md)
       * [进阶任务](ch0/RepTaskAdvanced.md)
       * [个人教程](ch0/handbook.md)
   * [第一讲：从现实问题到学科信息](ch1/README.md)
