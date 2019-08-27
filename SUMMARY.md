@@ -4,7 +4,7 @@
   * [基础篇](ch0/preface.md)   
       * [java字符字节编码](java/我的编码.md)
       * [golang--string遍历](go/go_base/string遍历.md)
-      * [java_nio_文件读写](java/NIO——初探之文件读写.md)
+      * [java_nio_文件读写](java/nio文件读写.md)
       * [个人教程](ch0/handbook.md)
       * 
   * [第一讲：从现实问题到学科信息](ch1/README.md)
