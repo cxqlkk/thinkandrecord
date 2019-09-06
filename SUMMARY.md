@@ -8,7 +8,7 @@
       * [go-函数接口适配器](go/go_base/函数接口适配器.md)
       * [go-gdb调试](go/go_base/go_gdb.md)
       * [go-随机数](go/go_base/随机数.md)
-      * [go-select实现超时机制](go/go_base/select实现超时机制.md)
+      * [go-select实现超时机制](go/go_base/select实现超时检测.md)
   * [结业大作业](ch8/README.md)
       * [个人教程](ch8/handbook.md)
   * [备注](ps/handbooks.md)
