@@ -10,6 +10,7 @@
       * [go-随机数](go/go_base/随机数.md)
       * [go-select实现超时机制](go/go_base/select实现超时检测.md)
       * [go-channel之close](go/go_base/channel之Close.md)
+      * [go-switch](go/go_base/go_switch.md)
   * [结业大作业](ch8/README.md)
       * [个人教程](ch8/handbook.md)
   * [备注](ps/handbooks.md)
