@@ -13,7 +13,7 @@
       * [go-switch](go/go_base/go_switch.md)
       * [go-error](go/go_base/error.md)
       * [go-test](go/go_base/test.md)
-* [高级篇]()
+* [高级篇](/advance)
      * [go-反射](go/go_advance/reflect.md)
   * [结业大作业](ch8/README.md)
       * [个人教程](ch8/handbook.md)
