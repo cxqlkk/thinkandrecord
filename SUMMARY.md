@@ -15,13 +15,14 @@
       * [go-error](go/go_base/error.md)
       * [go-test](go/go_base/test.md)
       * [go-json](go/go_base/json.md)
-      
 * [高级篇](/advance)
-  
   * [go-反射](go/go_advance/reflect.md)
-  * [结业大作业](ch8/README.md)
-      * [个人教程](ch8/handbook.md)
-  * [备注](ps/handbooks.md)
+
+* [其他]()
+  
+  * [docker部署mysql](other/mysql数据挂载.md)
+  * [nginx安装](/ohter/nginx安装.md)
+  * [linux命令1](other/linux命令补.md)
   * [参考文献](ps/ref.md)
   * [致谢](ps/thanks.md)
   * [后记](no_end/postscript.md)  
