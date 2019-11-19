@@ -15,6 +15,7 @@
       * [go-error](go/go_base/error.md)
       * [go-test](go/go_base/test.md)
       * [go-json](go/go_base/json.md)
+      * [go-复杂结构体初始化](go/go_base/复杂结构体初始化.md)
 * [高级篇](/advance)
   * [go-反射](go/go_advance/reflect.md)
 
