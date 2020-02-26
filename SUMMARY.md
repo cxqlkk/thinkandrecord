@@ -21,7 +21,7 @@
       
       
 * [高级篇](/advance)
-  
+  * [go-结构体声明和初始化](/go/go_advance/结构体的初始化.md)
   * [go-反射](go/go_advance/reflect.md)
   
   * [dlv调试web](go/go_advance/dlv调试web.md)
@@ -29,7 +29,7 @@
        
 
 * [其他]()
-  
+  * [git删除](other/git删除.md)
   * [docker部署mysql](other/mysql数据挂载.md)
   * [nginx安装](/ohter/nginx安装.md)
   * [linux命令1](other/linux命令补.md)
