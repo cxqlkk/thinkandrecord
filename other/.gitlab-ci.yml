@@ -1,0 +1,20 @@
+stages:
+  - kill
+  - run
+
+kill_old:
+  stage: kill
+  script:
+    - if [ 0 -ne `ps -ef |grep ntemergencyduty |grep -v "grep" |wc -l` ];then ps aux|grep ntemergencyduty|grep -v grep| awk '{ print $2}'|xargs kill -9;fi
+
+
+
+run_new:
+  stage: run
+  script:
+    -  ls
+    - pwd
+    -  go build main.go
+    -  mv main ntemergencyduty
+    -  ./ntemergencyduty >ntemergency.log
+
