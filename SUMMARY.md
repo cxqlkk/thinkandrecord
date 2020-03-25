@@ -23,8 +23,9 @@
 * [高级篇](/advance)
   * [go-结构体声明和初始化](/go/go_advance/结构体的初始化.md)
   * [go-反射](go/go_advance/reflect.md)
-  
   * [dlv调试web](go/go_advance/dlv调试web.md)
+  * [测试](go/go_advance/dlv调试web.md)
+
   
        
 
