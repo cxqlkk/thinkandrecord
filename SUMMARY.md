@@ -24,7 +24,10 @@
   * [go-结构体声明和初始化](/go/go_advance/结构体的初始化.md)
   * [go-反射](go/go_advance/reflect.md)
   * [dlv调试web](go/go_advance/dlv调试web.md)
-  * [测试](go/go_advance/dlv调试web.md)
+  * [获取结构体未导出的字段](go/go_advance/获取结构体未导出的字段.md)
+  * [goweb性能监测](go/go_advance/goweb监测.md)
+  * [奇怪-在结构体方法里重新给结构体赋值](go/go_advance/奇怪-在结构体方法里重新给结构体赋值.md)
+
 
   
        
