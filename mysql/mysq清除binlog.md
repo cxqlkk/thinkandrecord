@@ -1,0 +1,1 @@
+https://dba.stackexchange.com/questions/41050/is-it-safe-to-delete-mysql-bin-files?spm=a2c6h.13066369.0.0.43813048W7v9ib

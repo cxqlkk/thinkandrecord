@@ -66,3 +66,8 @@ alter user 'root'@'localhost' identified by '123';
 flush privileges;
 ```
 
+[更新。mysql 5.7]
+docker run --name m1 -p 3310:3306 -v /root/test/mysql/data:/var/lib/mysql -v /root/test/mysql/conf/mysql/conf.d:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.7
+
+#####[如果出现登录不了的问题，删除挂载的data 目录]！！！
+

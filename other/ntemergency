@@ -1,0 +1,10 @@
+```
+{"User":"root","Password":"123456","DataHost":"localhost","DataPort":"3306","DataBaseName":"tzwyj","QzUser":"root","QzPassword":"123456","QzDataHost":"localhost","QzDataPort":"3306","QzDataBaseName":"T06024_yjgl","ServerPort":"4455"}
+```
+
+ntlogin
+
+```
+{"User":"root","Password":"123456","DataHost":"localhost","DataPort":"3306","DataBaseName":"tzwyj","LogDataBaseName":"tzw_systemlog","NtyjHostAndPort":"http://localhost:4455","YjzsHostAndPort":"http://localhost:7777","XthsHostAndPort":"http://localhost:7000","TeamHostAndPort":"http://localhost:5566","NTDTHostAndPort":"http://localhost:8888","VideoHostAndPort":"http://localhost:7892","FileHostAndPort":"http://localhost:7778","ServerPort":"3344","ForwardHost":"/static/TZW/sys-nt/login.html"}
+
+```

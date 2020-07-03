@@ -1,0 +1,1 @@
+`select  concat('{',GROUP_CONCAT( CONCAT(concat('"',COLUMN_NAME,'"'),":",concat('"',COLUMN_COMMENT,'"'))),'}') from information_schema.COLUMNS where TABLE_NAME="tzw_xiaohuoshuan" and TABLE_SCHEMA="codenai" and  COLUMN_COMMENT is not null  and COLUMN_COMMENT !=""`
