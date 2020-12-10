@@ -1,0 +1,1 @@
+ docker cp /usr/share/zoneinfo/Asia/Shanghai   7c:/etc/localtime

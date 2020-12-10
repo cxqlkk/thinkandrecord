@@ -14,7 +14,8 @@
 
 4. 创建新用户 
 
- > user add elsearch
+ > useradd elsearch
+
 
 5. 赋予权限
    > chmod -R 777 elasticsearch-6.4.3 
@@ -30,6 +31,10 @@
         vi  /etc/security/limits.conf
           soft    nofile      65536
           hard    nofile     65536
+
+
+          elsearch hard nofile 65536
+elsearch soft nofile 65536
     ```
 
     > [2]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
