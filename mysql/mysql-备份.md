@@ -86,5 +86,26 @@ crontab -e
 service cron restart
 
 
+### 后记
+不知道为何 备份的docker 容器一直在restaring ,
+后来删除了data 目录下的数据就好了
+但是 数据明显不能同步了，于是重新从master 数据库 mysqldum -h 2.82.74.204 ntermegency >xx.sql(此处有个坑，是所有数据库表都必须有)
+
+然后 在从数据库 source 了一下，但是 重启slave 发现 报错 
+
+先在slave上做一下reset master来清除gtid的一些信息，直接设置会报如下错误：
+[zejin] 3303>set global GTID_PURGED="a97983fc-5a29-11e6-9d28-000c29d4dc3f:1-26";
+ERROR 1840 (HY000): @@GLOBAL.GTID_PURGED can only be set when @@GLOBAL.GTID_EXECUTED is empty.
+要先  reset master;
+
+SET @@GLOBAL.GTID_PURGED='f772b114-6680-11ea-8f03-0242ac110002:1-87252294';（这行是从 xx.sql 里找的）
+start slave;
+show slave status //ok 了
 
 
+2020-10-10更新
+
+Fatal error: The slave I/O thread stops because master and slave have equal
+
+mv /var/lib/mysql/auto.cnf  /var/lib/mysql/auto.cnf.back
+重启从数据库 （

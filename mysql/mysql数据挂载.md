@@ -71,3 +71,18 @@ docker run --name m1 -p 3310:3306 -v /root/test/mysql/data:/var/lib/mysql -v /ro
 
 #####[如果出现登录不了的问题，删除挂载的data 目录]！！！
 
+
+  "Source": "/root/mysql/conf/mysql",
+                "Destination": "/etc/mysql",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/root/mysql/data",
+                "Destination": "/var/lib/mysql",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
